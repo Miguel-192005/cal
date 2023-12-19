@@ -15,3 +15,4 @@ print("La inversa de la matris es:\n\n" ,Inversa)
 Respuesta = np.dot(np.linalg.inv(A), b)
 
 print("\n La Matriz solucion es:\n", Respuesta)
+// este codigo se subio por error solo es un programa en python para resolver matrices 3x3 que cree 
