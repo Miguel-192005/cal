@@ -32,7 +32,8 @@ class Calculadora:
                 row += 1
 
         # Botón de retroceso
-        tk.Button(self.root, text='←', width=5, height=2, command=self.borrar_ultimo_digito, bg='orange').grid(row=row, column=col)// nuevo boton para borrar ='←'
+        tk.Button(self.root, text='←', width=5, height=2, command=self.borrar_ultimo_digito, bg='orange').grid(row=row, column=col)
+        # nuevo boton para borrar ='←'
 
     def click(self, valor):
         if valor == '=':
